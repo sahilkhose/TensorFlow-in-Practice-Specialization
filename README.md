@@ -1,2 +1,2 @@
-# Introduction-to-TensorFlow
+# TensorFlow-in-Practice-Specialization
 Specialization by deeplearning.ai
