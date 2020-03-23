@@ -3,9 +3,14 @@ import keras
 from keras.preprocessing.image import ImageDataGenerator
 from keras.optimizers import RMSprop
 
+# ------------------------------------------------------------
+# NEW:
+
+# location of your dataset:
 train_dir = './'
 validation_dir = './'
 
+# training data generator:
 train_datagen = ImageDataGenerator(rescale=1./255)
 train_generator = train_datagen.flow_from_directory(
 	train_dir,
@@ -13,15 +18,17 @@ train_generator = train_datagen.flow_from_directory(
 	batch_size=128,
 	class_mode='binary')
 
+# training data generator:
 test_datagen = ImageDataGenerator(rescale=1./255)
 validation_generator = test_datagen.flow_from_directory(
 	validation_dir,
 	target_size=(300, 300),
 	batch_size=32,
 	class_mode='binary')
+# ------------------------------------------------------------
+# SAME:
 
-
-
+# model defination:
 model = keras.Sequential([
 	keras.layers.Conv2D(16, (3, 3), activation='relu', 
 						input_shape=(300, 300, 3)),
@@ -34,11 +41,17 @@ model = keras.Sequential([
 	keras.layers.Dense(512, activation='relu'),
 	keras.layers.Dense(1, activation='sigmoid')
 	])
-
+# print(model.summary())
+# model compiling:
 model.compile(optimizer=RMSprop(lr=0.001), 
 			  loss='binary_crossentropy',
 			  metrics=['accuracy'])
 
+
+# ------------------------------------------------------------
+# NEW:
+
+# model fitting: 
 model.fit_generator(
 		train_generator,
 		steps_per_epoch=8,
