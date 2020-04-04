@@ -9,14 +9,10 @@
 --------------------------------------------------------------------------------------------
 
 ## Courses
-1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
-  * [Codes](https://github.com/sahilkhose/TensorFlow-in-Practice-Specialization/tree/master/course1)
-2. Convolutional Neural Network in Tensorflow
-  * [Codes](https://github.com/sahilkhose/TensorFlow-in-Practice-Specialization/tree/master/course2)
-3. Natural Language Processing in TensorFlow
-  * [Codes](https://github.com/sahilkhose/TensorFlow-in-Practice-Specialization/tree/master/course3)
-4. Sequence, Time Series and Prediction
-  * [Codes](https://github.com/sahilkhose/TensorFlow-in-Practice-Specialization/tree/master/course4)
+1. [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://github.com/sahilkhose/TensorFlow-in-Practice-Specialization/tree/master/course1)
+2. [Convolutional Neural Network in Tensorflow](https://github.com/sahilkhose/TensorFlow-in-Practice-Specialization/tree/master/course2)
+3. [Natural Language Processing in TensorFlow](https://github.com/sahilkhose/TensorFlow-in-Practice-Specialization/tree/master/course3)
+4. [Sequence, Time Series and Prediction](https://github.com/sahilkhose/TensorFlow-in-Practice-Specialization/tree/master/course4)
 
 -------------------------------------------------------------------------------------------------------------
 
