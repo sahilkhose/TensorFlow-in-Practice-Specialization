@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------
-<p align="center"><img width="40%" src="https://deeplearning-assets.s3.amazonaws.com/content/uploads/2018/09/deeplearning-logo.svg.gzip" /></p>
+<p align="center"><img width="40%" src="https://github.com/sahilkhose/TensorFlow-in-Practice-Specialization/blob/master/Logo.jpg" /></p>
 
 -------------------------------------------------------------------------------------------
 
