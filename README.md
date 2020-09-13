@@ -3,7 +3,7 @@
 
 -------------------------------------------------------------------------------------------
 
-# [Tensorflow in Practice Specialization](https://www.coursera.org/specializations/tensorflow-in-practice)
+# [DeepLearning.AI TensorFlow Developer](https://www.coursera.org/specializations/tensorflow-in-practice)
 *This Repository Contains Solution to the Assignments of the Tensorflow in Practice Specialization from deeplearning.ai on Coursera Taught by [Laurence Moroney](https://www.coursera.org/instructor/lmoroney)*
 
 --------------------------------------------------------------------------------------------
@@ -17,7 +17,7 @@
 -------------------------------------------------------------------------------------------------------------
 
 ## Certificate
-* [Tensorflow in Practice](https://www.coursera.org/account/accomplishments/specialization/certificate/JNWH7K3GSB75)
+* [DeepLearning.AI TensorFlow Developer](https://www.coursera.org/account/accomplishments/specialization/certificate/JNWH7K3GSB75)
 
 --------------------------------------------------------------------------------------------------------------
 
